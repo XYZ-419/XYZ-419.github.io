@@ -103,7 +103,7 @@ posts_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 1200px
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
@@ -243,7 +243,6 @@ exclude:
   - _pages/plugins.md
   - _pages/profiles.md
   - _pages/projects.md
-  - _pages/publications.md
   - _pages/repositories.md
   - _pages/teaching.md
   - _posts/

@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
 subtitle: >
   Undergraduate in Engineering Mechanics, School of Mechanics and Aerospace Engineering,

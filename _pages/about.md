@@ -26,7 +26,42 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+<style id="home-profile-styles">
+  .post a[href^="mailto:"] {
+    overflow-wrap: anywhere;
+  }
+
+  @media (min-width: 768px) {
+    .post {
+      position: relative;
+    }
+
+    .post > .post-header,
+    .post > article > .clearfix {
+      padding-right: 260px;
+    }
+
+    .post > article > .profile {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 220px;
+      margin: 0;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .post > article > .profile {
+      width: 160px;
+      max-width: 42%;
+      margin: 0 0 1rem 1.5rem;
+    }
+  }
+</style>
+
 bio cannot be empty
+
+Email: [YouzhengXie060419@163.com](mailto:YouzhengXie060419@163.com)
 
 ## Research interests
 
